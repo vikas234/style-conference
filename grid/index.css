@@ -1,0 +1,53 @@
+*,*:before,*:after{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1200px;
+	background-color: gray;
+}
+.row div{
+	background-color: gray;
+}
+[class*="col"]{
+	float: left;
+	padding: 15px;
+	border:1px solid green;
+}
+.col1{
+	width: 8.33%;
+}
+.col2{
+	width: 16.66%;
+}
+.col3{
+	width: 25%;
+}
+.col4{
+	width: 33.33%;
+}
+.col5{
+	width: 41.6%;
+}
+.col6{
+	width: 50%;
+}
+.col7{
+	width: 59.4%;
+}
+.col8{
+	width: 66.67%
+}
+.col9{
+	width: 75%;
+}
+.col10{
+	width: 83.34%;
+}
+.col11{
+	width: 91.67%;
+}
+.col12{
+	width: 100%;
+}

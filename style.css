@@ -1,0 +1,29 @@
+div.container header{
+	background-color: black;
+	color:white;
+	text-align: center;
+	font-size: 50px;
+	font-weight:600;
+	padding: 20px 0;
+}
+div.container footer{
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+}
+nav{
+	float: left;
+	max-width: 150px;
+	padding: 10px 20px 0px 20px;
+}
+article{
+	border-left:2px solid gray;
+	padding: 15px;
+	margin-left:160px; 
+}
+article h2{
+	font-size:30px;
+	padding: 2px; 
+}
